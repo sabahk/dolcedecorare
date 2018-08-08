@@ -1,0 +1,51 @@
+create header and them footer and cop file into other pages so that we have a template to follow. 
+
+maybe add 3 or 4 images to index as a header 
+
+Home 
+Gallery 
+Price
+Products and Rentals
+Contact
+
+
+template 
+
+            <body>
+                <div class="logo">
+                    <img src="Images/icon.png" alt="Logo">
+                    <div class="contact">
+                        <a href="https://twitter.com/Sabah17k" target="_blank" sizes="64x364">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="tel:+17347474994">(734) 747-4994</a>
+                    </div>
+                </div>
+                <div class="topnav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a class="active" href="#home">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#news">GALLERY</a>
+                            </li>
+                            <li>
+                                <a href="#contact">PRODUCTS & RENTALS</a>
+                            </li>
+                            <li>
+                                <a href="#about">PRICING</a>
+                            </li>
+                            <li>
+                                <a href="#about">RENTALS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer"> 
+                    <p id="firstP">Dolce Decorare</p>
+                    <p>734-555-5555</p>
+                    <p id="lastP">decoraredolce@gmail.com</p>
+                </div>
+            </body>

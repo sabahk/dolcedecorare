@@ -1,0 +1,183 @@
+body,
+html {
+    background-color: #031634;
+    color: white;
+    margin: 0;
+    width: 100vw;
+}
+
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.logo {
+    height: 100px;
+}
+
+.logo img {
+    padding-top: 0.5em;
+    float: left;
+    padding-left: 1em;
+}
+
+.contact {
+    padding-top: 1.5em;
+    padding-right: 2em;
+    float: right;
+    font-size: 1.5em;
+}
+
+.contact a {
+    padding-left: 1em;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+ul {
+    padding: 14px 16px;
+    text-align: center;
+    background-color: white;
+}
+
+.topnav ul {
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+    background-color: white;
+}
+
+li a {
+    background-color: white;
+    color: #031634;
+}
+
+.headerImg img {
+    width: 100vw;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+#contact {
+    padding-bottom: 30px;
+}
+
+#contact p {
+    padding-bottom: 30px;
+}
+
+.formboxes {
+    border: none;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: #F0F0F0;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+}
+
+#contact a {
+    color: #172027;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+input {
+    width: 40%;
+}
+
+textarea {
+    width: 40%;
+}
+
+.submitButton {
+    width: 100px;
+    background-color: white;
+    color: #031634;
+    border: 3px solid #031634;
+}
+
+#contact h1 {
+    padding-bottom: 0px;
+}
+
+#contact p {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.portfolio .row img {
+    padding: 10px;
+}
+
+.prices ul {
+    color: #031634;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 0;
+}
+
+.prices li {
+    color: #031634;
+}
+
+.prices h4 {
+    color: #031634;
+    background-color: white;
+    width: 300px;
+    border-top: #031634 solid 2px;
+    text-align: right;
+}
+
+.item h5{
+    margin-bottom: 0;
+}
+
+.item em{
+    padding-bottom: 10px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    color: #031634;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.footer #firstP {
+    padding-top: 20px;
+}
+
+.footer #lastP {
+    padding-bottom: 20px;
+}
