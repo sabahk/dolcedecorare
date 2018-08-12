@@ -290,6 +290,10 @@ textarea {
     text-align: right;
 }
 
+.dropdown-toggle::after{
+    content:none !important; 
+}
+
 /* Rentals.html */
 
 .item h5 {
