@@ -4,18 +4,25 @@ html {
     color: white;
     margin: 0;
     width: 100vw;
+    padding-bottom: 40px;
 }
 
 * {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-
+/* common css */
 h1 {
     text-align: center;
     padding: 30px;
 }
 
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+/* Logo */
 
 .logo {
     height: 100px;
@@ -27,17 +34,19 @@ h1 {
     padding-left: 1em;
 }
 
-.contact {
+/* header contact info */
+.headContact {
     padding-top: 1.5em;
     padding-right: 2em;
     float: right;
     font-size: 1.5em;
 }
 
-.contact a {
+.headContact a {
     padding-left: 1em;
 }
 
+/* navbar */
 a:link {
     text-decoration: none;
     color: white;
@@ -69,14 +78,12 @@ li a {
     color: #031634;
 }
 
+/* index header image */
 .headerImg img {
-    
+    width: 100vw;
 }
 
-.center {
-    text-align: center;
-    margin: auto;
-}
+/* contact.html */
 
 #contact {
     padding-bottom: 30px;
@@ -126,10 +133,12 @@ textarea {
     padding-bottom: 0px;
 }
 
+/* gallery.html */
 .portfolio .row img {
     padding: 10px;
 }
 
+/* pricing.html */
 .prices ul {
     color: #031634;
     background-color: white;
@@ -150,6 +159,7 @@ textarea {
     text-align: right;
 }
 
+/* Rentals.html */
 .item h5{
     margin-bottom: 0;
 }
@@ -158,25 +168,21 @@ textarea {
     padding-bottom: 10px;
 }
 
+/* footer on all pages */
 .footer {
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: white;
     text-align: center;
-    margin-top: 40px;
+    height: 40px;
 }
 
 .footer p {
     color: #031634;
     margin: 0;
-    padding-bottom: 5px;
 }
 
 .footer #firstP {
-    padding-top: 20px;
-}
-
-.footer #lastP {
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
