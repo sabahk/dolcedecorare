@@ -4,7 +4,6 @@ html {
     color: #FAFAFA;
     text-shadow: 0.5px 0.5px 1px grey;
     margin: 0;
-    padding: 0;
     overflow-x: hidden;
     height: 100%;
 }
@@ -14,10 +13,6 @@ html {
     box-sizing: border-box;
 }
 
-.wrapper{
-    min-height:100%;
-   position:relative;
-}
 
 i {
     color: #FAFAFA;
