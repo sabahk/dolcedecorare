@@ -444,7 +444,8 @@ textarea {
         text-align: left;
     }
 
-    .footer{
-        position: fixed;
+    .formboxes{
+        color: #031634;
     }
+
 }
