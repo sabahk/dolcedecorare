@@ -403,8 +403,8 @@ textarea {
         margin: 0 auto;
     }
 
-    .priceBox{
-        
+    .priceBox h4{
+        margin-bottom: 20px;
     }
    
     .topnav a,
