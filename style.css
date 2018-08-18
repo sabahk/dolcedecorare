@@ -21,7 +21,8 @@ i {
 
 h1 {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    margin-top: 0;
 }
 
 a{ 
@@ -335,6 +336,14 @@ textarea {
         display: none;
     }
 
+    .slideshow-container{
+        max-width: 500px;
+    }
+
+    .mySlides img{
+        width: 100%;
+        height: 100%;
+    }
     h2{
         font-size: 100%;
     }
