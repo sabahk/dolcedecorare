@@ -398,7 +398,7 @@ textarea {
     }
 
     .prices{
-        overflow: scroll;
+       -webkit-overflow-scrolling: touch;
     }
     .priceBox img, .priceBox ul, 
     .priceBox h4{
