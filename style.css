@@ -24,6 +24,10 @@ h1 {
     padding: 30px;
 }
 
+a{ 
+    color: #FAFAFA;
+}
+
 .center {
     text-align: center;
     margin: auto;
