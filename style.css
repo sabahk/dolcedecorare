@@ -341,7 +341,7 @@ textarea {
     padding-bottom: 10px;
 }
 
-.rental {
+.rental {      
     padding-bottom: 30px;
 }
 
@@ -351,7 +351,6 @@ textarea {
     background-color: #FAFAFA;
     text-align: center;
     height: 40px;
-    margin-top: 20px;
 }
 
 .footer p {
