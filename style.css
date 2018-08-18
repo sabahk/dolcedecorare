@@ -123,15 +123,11 @@ li a:visited {
 }
 
 .homeInfo h2 {
-    padding-top: 40px;
+    margin-top: 0;
     font-weight: bold;
     font-style: italic;
 }
 
-.homeInfo p {
-    font-size: 1.5em;
-    padding-top: 30px;
-}
 
 .homeInfo img {
     border-radius: 50%;
@@ -337,6 +333,14 @@ textarea {
 @media only screen and (max-width: 600px) {
     .imageInfo{
         display: none;
+    }
+
+    h2{
+        font-size: 100%;
+    }
+
+    p{
+        font-size: 80% !important;
     }
 
     .logo{
