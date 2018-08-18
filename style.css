@@ -397,6 +397,9 @@ textarea {
         width: 70%;
     }
 
+    .prices{
+        overflow: scroll;
+    }
     .priceBox img, .priceBox ul, 
     .priceBox h4{
         float: none;
