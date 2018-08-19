@@ -5,6 +5,7 @@ html {
     text-shadow: 0.5px 0.5px 1px grey;
     overflow-x: hidden;
     height: 100%;
+    position: relative;
 }
 
 * {
@@ -351,6 +352,7 @@ textarea {
     background-color: #FAFAFA;
     text-align: center;
     height: 40px;
+    position: absolute;
 }
 
 .footer p {
