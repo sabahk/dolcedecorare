@@ -125,6 +125,7 @@ a {
     text-decoration: none;
     display: block;
     text-align: left;
+    background-color: #FAFAFA;
 }
 
 .topnav a:hover,
@@ -354,6 +355,7 @@ textarea {
     height: 40px;
     position: absolute;
     width: 100%;
+    bottom: 0;
 }
 
 .footer p {
