@@ -305,12 +305,17 @@ textarea {
 
 /* pricing.html */
 
+.prices img{
+    width: 300px !important;
+}
+
 .prices ul {
     color: #031634;
     background-color: #FAFAFA;
     width: 300px;
     height: 250px;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 .prices li {
