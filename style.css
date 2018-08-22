@@ -161,6 +161,10 @@ a {
     font-style: italic;
 }
 
+.homeInfo p{
+    margin-bottom: 100px;
+}
+
 .homeInfo img {
     border-radius: 50%;
 }
@@ -358,7 +362,7 @@ textarea {
     background-color: #FAFAFA;
     text-align: center;
     height: 40px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
