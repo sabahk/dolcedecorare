@@ -325,9 +325,26 @@ textarea {
     color: #031634;
     background-color: #FAFAFA;
     width: 300px;
-    height: 250px;
+    height: 350px;
     margin-bottom: 0;
-    padding-left: 0;
+    padding-left: 20px;
+
+}
+
+hr{
+    margin: 5px;
+}
+
+.package{
+    
+}
+
+.space{
+    padding-top: 20px;
+}
+
+.prices ul.li{
+    list-style-type: circle;
 }
 
 .prices li {
@@ -344,6 +361,7 @@ textarea {
     width: 300px;
     border-top: #031634 solid 2px;
     text-align: right;
+    margin-bottom: 50px;
 }
 
 .dropdown-toggle::after {
