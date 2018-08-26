@@ -356,6 +356,17 @@ textarea {
     padding-bottom: 30px;
 }
 
+.rentalCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.rentalImages img{
+    padding: 20px;
+}
+
 /* footer on all pages */
 
 .footer {
