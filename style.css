@@ -425,7 +425,7 @@ ul{
         font-size: 100%;
     }
     p {
-        font-size: 85% !important;
+        font-size: 95% !important;
     }
     .logo {
         display: none;
@@ -453,7 +453,27 @@ ul{
     }
 
     .priceBox h4{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
+    }
+
+    ul{
+        padding-left: 10px;
+        padding-bottom: 40px;
+    }
+
+    .item span{
+        float: none;
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .dessertRequest{
+        padding-bottom: 60px;
+    }
+
+    .rentalImages{
+        display: none;
     }
 
    
@@ -493,6 +513,10 @@ ul{
     .formboxes{
         background-color: #FAFAFA;
         color: #031634;
+    }
+
+    .footer{ 
+        padding-top: 40px;
     }
 
 }
