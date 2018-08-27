@@ -441,12 +441,13 @@ ul{
     }
     h2 {
         font-size: 100%;
+        padding: 20px;
     }
     p {
         font-size: 95% !important;
     }
     .logo {
-        display: none;
+        width: 200px;
     }
     .headContact {
         display: none;
