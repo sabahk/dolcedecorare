@@ -534,6 +534,14 @@ ul{
         color: #031634;
     }
 
+    .logo{
+        height: 150px;
+    }
+
+    #img{
+        padding-left: 100px;
+    }
+
     .footer{ 
         padding-top: 40px;
     }

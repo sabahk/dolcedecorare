@@ -18,7 +18,7 @@
 
 <body>
     <div class="logo">
-        <img src="Images/icon.png" alt="Logo">
+        <img id="img" src="Images/icon.png" alt="Logo">
         <div class="headContact">
             <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
                 <i class="fab fa-facebook-square"></i>
@@ -111,6 +111,7 @@
                 $('#imageDiv1').addClass('img-responsive');
                 $('#imageDiv2').addClass('center-block');
                 $('#imageDiv2').addClass('img-responsive');
+                $('#img').attr('src','Images/mobileicon.png');
             } else {
                 $('#imageDiv').removeClass('img-responsive');
                 $('#imageDiv').removeClass('center-block');
@@ -118,6 +119,7 @@
                 $('#imageDiv1').removeClass('center-block');
                 $('#imageDiv2').removeClass('img-responsive');
                 $('#imageDiv2').removeClass('center-block');
+                $('#img').attr('src','Images/icon.png');
             }
         }).resize();
     </script>

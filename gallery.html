@@ -16,7 +16,7 @@
 
 <body>
     <div class="logo">
-        <img src="Images/icon.png" alt="Logo">
+        <img id="img" src="Images/icon.png" alt="Logo">
         <div class="headContact">
             <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
                 <i class="fab fa-facebook-square"></i>
@@ -194,6 +194,14 @@
                 x.className = "topnav";
             }
         }
+
+         $(window).resize(function () {
+            if ($(window).width() < 600) {
+                $('#img').attr('src','Images/mobileicon.png');
+            } else {
+                $('#img').attr('src','Images/icon.png');
+            }
+        }).resize();
     </script>
 </body>
 
