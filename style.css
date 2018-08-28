@@ -42,7 +42,7 @@ a {
 /* Logo */
 
 .logo {
-    height: 125px;
+    height: 170px;
 }
 
 .logo img {
@@ -535,10 +535,11 @@ ul{
     }
 
     .logo{
-        height: 150px;
+        height: 170px;
     }
 
     #img{
+
         padding-left: 100px;
     }
 
