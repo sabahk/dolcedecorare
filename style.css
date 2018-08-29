@@ -42,7 +42,7 @@ a {
 /* Logo */
 
 .logo {
-    height: 170px;
+    height: 150px;
 }
 
 .logo img {
@@ -434,6 +434,7 @@ ul{
     }
     .slideshow-container {
         max-width: 500px;
+        padding-bottom: 35px;
     }
     .mySlides img {
         width: 100%;
@@ -480,11 +481,28 @@ ul{
         padding-bottom: 40px;
     }
 
+    .desc{
+        padding-top: 200px;
+    }
+
+    .item h5{
+        margin-top: 30px;
+    }
+
     .item span{
         float: none;
         text-align: center;
         padding-right: 0;
         padding-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .item li:first-child{
+        padding-top: 210px;
+    }
+
+    .itemDessert li:first-child{
+        padding-top: 0px;
     }
 
     .dessertRequest{
@@ -492,9 +510,28 @@ ul{
     }
 
     .rentalImages{
+        margin-bottom: 15px;
+    }
+
+    .rentalImages img:nth-child(n+3){
         display: none;
     }
 
+    .rentalImages img:nth-child(1){
+        display: inline;
+        float: left;
+    }
+
+    .rentalImages img:nth-child(2){
+        display: inline;
+        float: right;
+        width: 187px;
+
+    }
+
+    .rentalCenter{
+        padding-left: 0;
+    }
    
     .topnav a,
     .dropdown .dropbtn {
@@ -516,6 +553,7 @@ ul{
         float: none;
         display: block;
         text-align: left;
+        padding: 14px 35px;
     }
     .topnav.responsive .dropdown {
         float: none;
@@ -527,6 +565,7 @@ ul{
         display: block;
         width: 100%;
         text-align: left;
+        padding: 14px 35px;
     }
 
     .formboxes{
@@ -535,7 +574,7 @@ ul{
     }
 
     .logo{
-        height: 170px;
+        height: 150px;
     }
 
     #img{
@@ -544,7 +583,7 @@ ul{
     }
 
     .footer{ 
-        padding-top: 40px;
+        height: 30px;
     }
 
 }
