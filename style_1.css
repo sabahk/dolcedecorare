@@ -450,6 +450,10 @@ ul{
     .logo {
         width: 200px;
     }
+
+    .logo img{
+        padding-left: 40%;
+    }
     .headContact {
         display: none;
     }
@@ -481,10 +485,6 @@ ul{
         padding-bottom: 40px;
     }
 
-    .desc{
-        padding-top: 200px;
-    }
-
     .item h5{
         margin-top: 30px;
     }
@@ -497,14 +497,6 @@ ul{
         padding-top: 15px;
     }
 
-    .item li:first-child{
-        padding-top: 210px;
-    }
-
-    .itemDessert li:first-child{
-        padding-top: 0px;
-    }
-
     .dessertRequest{
         padding-bottom: 60px;
     }
@@ -513,19 +505,13 @@ ul{
         margin-bottom: 15px;
     }
 
-    .rentalImages img:nth-child(n+3){
+    .rentalImages img:nth-child(n+1){
         display: none;
     }
 
     .rentalImages img:nth-child(1){
-        display: inline;
-        float: left;
-    }
-
-    .rentalImages img:nth-child(2){
-        display: inline;
-        float: right;
-        width: 187px;
+        display: block;
+        margin: 0 auto;
 
     }
 
@@ -575,11 +561,6 @@ ul{
 
     .logo{
         height: 150px;
-    }
-
-    #img{
-
-        padding-left: 60px;
     }
 
     .footer{ 
