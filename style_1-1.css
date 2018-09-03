@@ -405,6 +405,23 @@ ul{
     padding: 20px;
 }
 
+/* Web */
+
+.webTop{
+    padding-top: 70px;
+}
+
+.scLeft{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #FAFAFA;
+}
+
+.webRight{
+    width: 50%;
+    float: right;
+}
+
 /* footer on all pages */
 
 .footer {
