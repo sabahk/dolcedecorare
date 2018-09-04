@@ -592,6 +592,17 @@ ul{
         color: #031634;
     }
 
+    .scLeft{
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid #FAFAFA;
+    }
+    
+    .webRight{
+        width: 100%;
+        float: right;
+    }
+
     .logo{
         height: 150px;
     }
