@@ -596,6 +596,7 @@ ul{
         width: 100%;
         float: none;
         border-bottom: 1px solid #FAFAFA;
+        border-left: none;
     }
     
     .webRight{
