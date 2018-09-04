@@ -39,6 +39,10 @@ a {
     margin: 0 auto;
 }
 
+.wrapper {
+    padding-bottom: 45px;
+}
+
 /* Logo */
 
 .logo {
@@ -408,9 +412,17 @@ ul{
 /* Web */
 
 .webTop{
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
+.webTop h4{
+    padding: 5px 40px;
+}
+
+.webTop h4:nth-child(3){
+    padding-bottom: 20px;
+
+}
 .scLeft{
     width: 50%;
     float: left;
@@ -420,6 +432,10 @@ ul{
 .webRight{
     width: 50%;
     float: right;
+}
+
+.scLeft img, .webRight img{
+    margin-bottom: 55px;
 }
 
 /* footer on all pages */
