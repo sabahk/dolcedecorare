@@ -257,9 +257,8 @@ textarea {
 /* test */
 
 #slider{
-    position: relative;
-    max-height: 800px; 
-    max-width: 100%;
+    position: relative; 
+    max-width: 500px;
     background: #FAFAFA;
     margin-bottom: 55px;
 }
@@ -589,11 +588,6 @@ ul{
 
     .footer{ 
         height: 30px;
-    }
-
-    .panel img{
-        max-height: 300px;
-        max-width: 100%;
     }
 
 }
