@@ -259,10 +259,12 @@ textarea {
 #slider{
     position: relative; 
     max-width: 500px;
-    background: #FAFAFA;
-    margin-bottom: 55px;
+    max-height: 500px;
 }
 
+.panel{
+    background-color: #031634;
+}
 #slider .panel{
     position: absolute;
     width: 1000px; 
@@ -271,9 +273,8 @@ textarea {
 }
 
 .panel img{
+    max-width: 500px;
     max-height: 500px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #slider .panel:first-child{
@@ -287,16 +288,16 @@ textarea {
     top: 100px;
     width: 20px;
     background: #172027;
-    color: #031634;
+    color: #FAFAFA;
 }
 
 #slider .next{
-    position: absolute;
+    position: relative;
     right:0;
     top: 100px;
     width: 20px;
     background: #172027;
-    color: #031634;
+    color: #FAFAFA;
 }
 
 
