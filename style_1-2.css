@@ -261,6 +261,10 @@ textarea {
     max-height: 500px;
 }
 
+.wrap{
+    margin-bottom: 60px;
+}
+
 .panel{
     background-color: #031634;
 }
