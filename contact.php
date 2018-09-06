@@ -62,18 +62,57 @@
         </a>
         <p>(all fields are required)</p>
         <div class="conInfo center">
-            <form method="POST" action="https://formspree.io/dolceeventdecor@gmail.com">
-                <input type="text" class="formboxes" name="name" placeholder="Name" required>
+            <form method="POST" action="#" id="form" name="form">
+                <input type="text" class="formboxes" name="vname" placeholder="Name" required>
                 <br/>
-                <input type="email" class="formboxes" name="_ReplyTo" placeholder="Email" required>
+                <input type="email" class="formboxes" name="vemail" placeholder="Email" required>
                 <br/>
-                <textarea name="message" class="formboxes" placeholder="Message" rows="5" required></textarea>
+                <input name="sub" class="formboxes" placeholder="Subject" type="text" value="">
                 <br/>
-                <input type="submit" value="Send" class="submitButton">
+                <textarea name="msg" class="formboxes" placeholder="Message" rows="5" required></textarea>
+                <br/>
+                <input id="send" class="submitButton" name="submit" type="submit" value="Submit">
             </form>
+            
+            <?php
+
+            if(isset($_POST["submit"])){
+
+                $email2 = null;
+                // Checking For Blank Fields..
+                if($_POST["vname"]==""||$_POST["vemail"]==""||$_POST["sub"]==""||$_POST["msg"]==""){
+                echo "Fill All Fields..";
+                }else{
+                // Check if the "Sender's Email" input field is filled out
+                $email=$_POST['vemail'];
+                // Sanitize E-mail Address
+                $email =filter_var($email, FILTER_SANITIZE_EMAIL);
+                // Validate E-mail Address
+                $email= filter_var($email, FILTER_VALIDATE_EMAIL);
+                if (!$email){
+                echo "Invalid Sender's Email";
+                }
+                else{
+                $subject = $_POST['sub'];
+                $message = $_POST['msg'];
+                $headers = 'From:'. $email2 . "rn"; // Sender's Email
+                $headers .= 'Cc:'. $email2 . "rn"; // Carbon copy to Sender
+                // Message lines should not exceed 70 characters (PHP rule), so wrap it
+                $message = wordwrap($message, 70);
+                // Send Mail By PHP Mail Function
+                mail("dolceeventdecor@gmail.com", $subject, $message, $headers);
+                echo "Your mail has been sent successfuly ! Thank you for your feedback";
+                }
+                }
+                }
+
+            ?>
 
 
+        </div>
 
+        <div class="buf">
+            <P></P>
         </div>
     </div>
 

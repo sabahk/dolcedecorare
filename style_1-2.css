@@ -241,7 +241,6 @@ textarea {
     background-color: #FAFAFA;
     color: #031634;
     border: 3px solid #031634;
-    margin-bottom: 50px;
 }
 
 #contact h1 {
@@ -251,6 +250,10 @@ textarea {
 #contact p {
     padding-top: 20px;
     padding-bottom: 0px;
+}
+
+.buf{
+    margin-bottom: 55px;
 }
 
 /* gallery.html */
