@@ -78,7 +78,6 @@
 
             if(isset($_POST["submit"])){
 
-                $email2 = null;
                 // Checking For Blank Fields..
                 if($_POST["vname"]==""||$_POST["vemail"]==""||$_POST["sub"]==""||$_POST["msg"]==""){
                 echo "Fill All Fields..";
@@ -94,14 +93,13 @@
                 }
                 else{
                 $subject = $_POST['sub'];
-                $message = $_POST['msg'];
-                $headers = 'From:'. $email2 . "rn"; // Sender's Email
-                $headers .= 'Cc:'. $email2 . "rn"; // Carbon copy to Sender
+                $message = "Dolce Request Form " . $_POST['msg'];
+                $headers = 'From:'. $email;  // Carbon copy to Sender
                 // Message lines should not exceed 70 characters (PHP rule), so wrap it
                 $message = wordwrap($message, 70);
                 // Send Mail By PHP Mail Function
                 mail("dolceeventdecor@gmail.com", $subject, $message, $headers);
-                echo "Your mail has been sent successfuly ! Thank you for your feedback";
+                echo "Your mail has been sent successfuly ! Someone will reach out to you within 24 hours.";
                 }
                 }
                 }
