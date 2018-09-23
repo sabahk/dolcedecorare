@@ -307,6 +307,14 @@ textarea {
     color: #FAFAFA;
 }
 
+#slider .next:hover{
+    color: rgb(255, 255, 255, 0.1);
+}
+
+#slider .previous:hover{
+    color: rgb(255, 255, 255, 0.1);
+}
+
 #slider .arrowNCenter{
     float: right;
     padding-top: 150px;
@@ -617,6 +625,14 @@ ul{
     .panel img{
         max-width: 400px;
         max-height: 350px;
+    }
+
+    #slider .previous{
+        font-size: 50px;
+    }
+    
+    #slider .next{
+        font-size: 50px;
     }
 
 }
