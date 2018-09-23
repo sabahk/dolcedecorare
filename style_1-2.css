@@ -290,8 +290,8 @@ textarea {
 #slider .previous{
     position: absolute;
     left:0;
-    top: 150px;
-    width: 80px;
+    top: 0;
+    width: 50%;
     height: 100%;
     font-size: 150px;
     color: #FAFAFA;
@@ -300,12 +300,23 @@ textarea {
 #slider .next{
     position: absolute;
     right:0;
-    top: 150px;
-    width: 80px;
+    top: 0;
+    width: 50%;
     height: 100%;
     font-size: 150px;
     color: #FAFAFA;
 }
+
+#slider .arrowNCenter{
+    float: right;
+    padding-top: 150px;
+}
+
+#slider .arrowPCenter{
+    float: left;
+    padding-top: 150px;
+}
+
 
 
 /* test end */
