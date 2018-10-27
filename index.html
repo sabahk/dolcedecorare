@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style_1-3.css">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
     <title>Dolce Event Decor</title>
 </head>
 
@@ -24,24 +24,27 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124817629-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-124817629-1');
     </script>
-
-    <div class="wrapper">
-        <div class="logo">
-            <img id="img" src="Images/mobileicon.png" alt="Logo">
-            <div class="headContact">
-                <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a href="tel:+17347474994" class="headNum">(734) 747-4994</a>
-            </div>
+    <!--<div class="logo">
+        <img id="img" src="Images/mobileicon.png" alt="Logo">
+        <div class="headContact">
+            <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="tel:+17347474994" class="headNum">(734) 747-4994</a>
         </div>
+    </div>
+-->
 
-        <div class="topnav" id="myTopnav">
+    <div class="topnav" id="myTopnav">
+        <div class="navLink">
             <a class="active" href="#">Home</a>
             <a href="gallery.html">Gallery</a>
 
@@ -57,23 +60,94 @@
                 </div>
             </div>
             <a href="contact.php">Contact</a>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
 
-        <div class="headerImg">
-            <img src="Images/header1.jpeg" alt="header - Dessert Table">
+        <div class="brand"><img src="Images/navLogo.png"></div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--data-interval:false for no animation-->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active"><img src="Header/1.png" alt=""></div>
+            <div class="item"><img src="Header/2.png"></div>
+            <div class="item"><img src="Header/3.png"></div>
+            <div class="item"><img src="Header/4.png"></div>
+            <div class="item"><img src="Header/5.png"></div>
         </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-        <div class="homeInfo">
-            <div class="row">
-                <div>
-                    <h2>Let us help decorate your event...</h2>
-                    <p>...whether it's a dessert table or your backdrop. Our attention to detail and organizational skills will
-                        alleviate your stress and make the event enjoyable for everyone. Our mission is to take your special
-                        day and translate your vision into an unforgettable experience. Types of events we have decorated
-                        in the past include bridal showers, birthdays, gender reveal parties, ethnic parties such as Mehndi
-                        and dholkis.
-                    </p>
+
+    <div class="homeInfo">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="home/1.png">
+            </div>
+            <div class="col-md-8 center">
+                <p>Let us help decorate your event whether it's a dessert table or your backdrop. Our attention to
+                    detail and organizational skills
+                    will
+                    alleviate your stress and make the event enjoyable for everyone. Our mission is to take your
+                    special
+                    day and translate your vision into an unforgettable experience. Types of events we have decorated
+                    in the past include bridal showers, birthdays, gender reveal parties, ethnic parties such as Mehndi
+                    and dholkis.
+                </p>
+            </div>
+        </div>
+        <div class="row testBg">
+            <div class="col-md-4">
+                <img src="home/2.png">
+            </div>
+            <div class="col-md-8 center">
+                <p class="testimonial"><span>
+                        "love your work, it was amazing👌
+                        Thank you Dolce Event Decor ❤
+                        highly recommended"<br \></span>
+                    -Mubashira Maqsood
+                </p>
+                <p class="testimonial"><span>
+                        "love your work, it was amazing👌
+                        Thank you Dolce Event Decor ❤
+                        highly recommended"<br \></span>
+                    -Mubashira Maqsood
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="home/3.png">
+            </div>
+            <div class="col-md-8 center">
+                <div id="soc" class="row">
+                    <div class="col-md-6">
+                        <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
+                            <i class="fab fa-facebook-square fa-3x"></i>
+                        </a>
+                        <p>Dolce Event Decor</p>
+                        <img src="Images/fbqr.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
+                            <i class="fab fa-facebook-square fa-3x"></i>
+                        </a>
+                        <p>@DolceEventDecor</p>
+                        <img src="Images/instaqr.jpeg">
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,17 +159,7 @@
         </div>
     </footer>
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-
-    </script>
+    <script href="text/javascript" src="JS/navbar.js"></script>
 </body>
 
 </html>
