@@ -278,7 +278,7 @@ textarea {
 }
 
 .panel{
-    background-color: #031634;
+    background-color: rgb(255, 255, 255, 0.1);
 }
 #slider .panel{
     width: 1000px; 
