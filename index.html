@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style_1-3.css">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
     <title>Dolce Event Decor</title>
 </head>
 
@@ -66,13 +66,13 @@
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--data-interval:false for no animation-->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active"><img src="Header/1.png" alt=""></div>
@@ -94,9 +94,12 @@
 
     <div class="homeInfo">
         <div class="row">
-            <div>
-                <h2>Let us help decorate your event...</h2>
-                <p>...whether it's a dessert table or your backdrop. Our attention to detail and organizational skills
+            <div class="col-md-4">
+                <img src="home/1.png">
+            </div>
+            <div class="col-md-8 center">
+                <p>Let us help decorate your event whether it's a dessert table or your backdrop. Our attention to
+                    detail and organizational skills
                     will
                     alleviate your stress and make the event enjoyable for everyone. Our mission is to take your
                     special
@@ -104,6 +107,48 @@
                     in the past include bridal showers, birthdays, gender reveal parties, ethnic parties such as Mehndi
                     and dholkis.
                 </p>
+            </div>
+        </div>
+        <div class="row testBg">
+            <div class="col-md-4">
+                <img src="home/2.png">
+            </div>
+            <div class="col-md-8 center">
+                <p class="testimonial"><span>
+                        "love your work, it was amazing👌
+                        Thank you Dolce Event Decor ❤
+                        highly recommended"<br \></span>
+                    -Mubashira Maqsood
+                </p>
+                <p class="testimonial"><span>
+                        "love your work, it was amazing👌
+                        Thank you Dolce Event Decor ❤
+                        highly recommended"<br \></span>
+                    -Mubashira Maqsood
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="home/3.png">
+            </div>
+            <div class="col-md-8 center">
+                <div id="soc" class="row">
+                    <div class="col-md-6">
+                        <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
+                            <i class="fab fa-facebook-square fa-3x"></i>
+                        </a>
+                        <p>Dolce Event Decor</p>
+                        <img src="Images/fbqr.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
+                            <i class="fab fa-facebook-square fa-3x"></i>
+                        </a>
+                        <p>@DolceEventDecor</p>
+                        <img src="Images/instaqr.jpeg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -114,16 +159,7 @@
         </div>
     </footer>
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <script href="text/javascript" src="JS/navbar.js"></script>
 </body>
 
 </html>

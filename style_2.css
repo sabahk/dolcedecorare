@@ -35,8 +35,8 @@ a:hover{
 }
 
 .center {
-    text-align: center;
     margin: auto;
+    padding: 10px;
 }
 
 i:hover{
@@ -177,30 +177,66 @@ i:hover{
 /* index info paragraph */
 
 .homeInfo {
-    padding-top: 20px;
+    
     text-align: center;
 }
 
-.homeInfo h2 {
-    margin-top: 0;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 2.5em;
+.homeInfo .center{
+    padding-top: 25px;
+    padding-right: 40px;
+}
+
+.homeInfo .row{
+    margin: 35px 0;
+    padding: 35px 0;
 }
 
 .homeInfo p{
-    margin: 80px;
-    margin-top: 30px;
     font-size: 1.5em;
+    text-align: right;
+}
+.testimonial{
+    text-align: right;
+}
+
+.testBg{
+    background-color: #FAFAFA;
+    color: #031634;
+}
+
+#soc{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#soc .col-md-4{
+    text-align: center;
+}
+
+#soc a{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#soc img{
+    width: 125px;
+    height: 125px;
+    border-radius: 0;
+}
+
+#soc p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.homeInfo p span{
+    font-style: italic;
 }
 
 .homeInfo img {
     border-radius: 50%;
-}
-
-.imageInfo {
-    padding-left: 90px;
-    padding-bottom: 30px;
 }
 
 /* desserts */
