@@ -2,7 +2,6 @@ body,
 html {
     background-color: #031634;
     color: #FAFAFA;
-    text-shadow: 0.5px 0.5px 1px grey;
     overflow-x: hidden;
     height: 100%;
     position: relative;
@@ -27,6 +26,7 @@ h1 {
 
 a {
     color: #FAFAFA;
+    text-shadow: 0,0,0;
 }
 
 a:hover{
@@ -79,6 +79,14 @@ i:hover{
 
 /* navbar */
 
+.brand{
+    float: left;
+    padding-left: 15px;
+}
+
+.navLink{
+    float: right;
+}
 .topnav {
     overflow: hidden;
     background-color: #FAFAFA;
@@ -108,6 +116,7 @@ i:hover{
     float: left;
     overflow: hidden;
     position: static;
+    
 }
 
 .dropdown .dropbtn {
@@ -470,6 +479,10 @@ ul{
 }
 .footer #firstP {
     padding-top: 10px;
+}
+
+#myCarousal img{
+    width: 100%;
 }
 
 /* mobile */

@@ -93,6 +93,20 @@
             <div class="panel">
                 <img src="gallery/img13.jpg" alt="image1">
             </div>
+            <div class="previous">
+                    <div class="arrowPCenter">
+                        &#10094;
+                    </div>
+                </div>
+                <div class="next">
+                    <div class="arrowNCenter">
+                        &#10095;
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="slider">
+            <div class="wrap center">
             <div class="panel">
                 <img src="gallery/img14.jpg" alt="image1">
             </div>
@@ -139,6 +153,7 @@
             <div class="arrowNCenter">
                 &#10095;
             </div>
+        </div>
     </div>
 
     <p class="log"></p>
@@ -191,18 +206,9 @@
             }
         });
         // apply start pane
-        showPane(0);
-
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-
+        showPane(0);  
     </script>
+    <script type="text/javascript" src="JS/navbar.js"></script>
 </body>
 
 </html>
