@@ -270,6 +270,23 @@ i:hover{
 
 .hiddenRow img{
     height: 150px;
+    margin: auto;
+    display: block;
+}
+
+td i{
+    padding-right: 10px;
+}
+
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
 }
 .rentalCenter{
     display: block;
@@ -284,7 +301,9 @@ i:hover{
 }
 
 /* contact.html */
-
+#dis{
+    text-align: center;
+}
 #contact {
     padding-bottom: 30px;
 }

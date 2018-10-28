@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style_1-3.css">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
     <title>Dolce Event Decor</title>
 </head>
 
@@ -60,9 +60,9 @@
         <a href="tel:734-747-4994" target="_blank" sizes="64x364">
             <i class="fas fa-phone-square fa-3x"></i>
         </a>
+        <div id="dis" class="conInfo center">
         <p>(all fields are required)</p>
-        <div class="conInfo center">
-            <form method="POST" action="#" id="form" name="form">
+            <form method="POST" action="#" id="form" name="form" onsubmit="Success()">
                 <input type="text" class="formboxes" name="vname" placeholder="Name" required>
                 <br/>
                 <input type="email" class="formboxes" name="vemail" placeholder="Email" required>
@@ -73,7 +73,7 @@
                 <br/>
                 <input id="send" class="submitButton" name="submit" type="submit" value="Submit">
             </form>
-            
+
             <?php
 
             if(isset($_POST["submit"])){
@@ -99,7 +99,6 @@
                 $message = wordwrap($message, 70);
                 // Send Mail By PHP Mail Function
                 mail("dolceeventdecor@gmail.com", $subject, $message, $headers);
-                echo "Your mail has been sent successfuly ! Someone will reach out to you within 24 hours.";
                 }
                 }
                 }
@@ -108,17 +107,18 @@
 
 
         </div>
-
-        <div class="buf">
-            <P></P>
-        </div>
     </div>
+
+    
 
     <div class="footer">
             <p id="firstP">Dolce Event Decor | <a href="mailto:dolceeventdecor@gmail.com">dolceeventdecor@gmail.com</a></p>
     </div>
 
     <script>
+        function Success(){
+            return document.getElementById("dis").innerHTML = "Thank you for reaching out! <br /> someone will be in contact within the next 24 hours!";
+        }
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
