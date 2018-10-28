@@ -264,6 +264,13 @@ i:hover{
     padding-bottom: 30px;
 }
 
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.hiddenRow img{
+    height: 150px;
+}
 .rentalCenter{
     display: block;
     margin-left: auto;
