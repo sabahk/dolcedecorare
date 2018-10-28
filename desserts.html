@@ -69,8 +69,11 @@
                     <th scope="col" class="price">Price</th>
                 </thead>
                 <tbody>
-                    <tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
-                        <td>Chocolate Covered Strawberries</td>
+                    <tr>
+                        <td>
+                            <i data-toggle="collapse" data-target="#demo1" class="fa fa-chevron-right accordion-toggle rotate"></i>
+                            Chocolate Covered Strawberries
+                        </td>
                         <td class="price">$18.00/dozen or $27.00/2 dozen</td>
                     </tr>
                     <tr>
@@ -131,6 +134,10 @@
         </div>
     </footer>
     <script>
+        $(".rotate").click(function () {
+            $(this).toggleClass("down");
+        })
+
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
