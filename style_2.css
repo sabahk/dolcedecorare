@@ -305,7 +305,9 @@ td i{
 
 #dis{
     text-align: center;
+    margin: auto;
 }
+
 #contact {
     padding-bottom: 30px;
     text-align: center;
