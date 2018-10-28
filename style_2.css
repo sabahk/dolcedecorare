@@ -301,11 +301,14 @@ td i{
 }
 
 /* contact.html */
+
+
 #dis{
     text-align: center;
 }
 #contact {
     padding-bottom: 30px;
+    text-align: center;
 }
 
 #contact p {
