@@ -17,45 +17,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style_1-3.css">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
     <title>Dolce Event Decor</title>
 </head>
 
 <body>
-    <div class="logo">
-        <img id="img" src="Images/mobileicon.png" alt="Logo">
-        <div class="headContact">
-            <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="tel:+17347474994">(734) 747-4994</a>
-        </div>
-    </div>
     <div class="topnav" id="myTopnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
+        <div class="navLink">
+            <a class="active" href="#">Home</a>
+            <a href="gallery.html">Gallery</a>
 
-        <div class="dropdown">
-            <button class="dropbtn">Services
-                <i class="fas fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="desserts.html">Desserts</a>
-                <a href="rental.html">Rentals</a>
-                <a href="packages.html">Decorating & Pricing</a>
-                <a href="web.html">Snapchat & Website</a>
+            <div class="dropdown">
+                <button class="dropbtn">Services
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="desserts.html">Desserts</a>
+                    <a href="rental.html">Rentals</a>
+                    <a href="packages.html">Decorating & Pricing</a>
+                    <a href="web.html">Snapchat & Website</a>
+                </div>
             </div>
+            <a href="contact.php">Contact</a>
         </div>
-        <a href="contact.php">Contact</a>
+
+        <div class="brand"><img src="Images/navLogo.png"></div>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
+
     <h1>PRICING</h1>
     <div class="prices">
         <div class="row justify-content-md-center">
             <div class="col-md-3">
                 <div class="priceBox">
                     <!--https://codepen.io/richerimage/pen/jEXWWG -->
-                    <img id="imageDiv" src="gallery/img4.jpg" alt="image1" style="width: 300px; height: 250px;">
+                   <!-- https://pavenum.com/en/images-and-text-overlays-in-html-css/-->
+                    <img id="imageDiv" src="gallery/stand.jpg" alt="image1" style="position: absolute; width: 300px; height: 250px;">
                     <ul>
                         <h3>Dessert Table Packages</h3>
                         <p class="package">PACKAGE 1</p>
@@ -77,7 +74,7 @@
             </div>
             <div class="col-md-3">
                 <div class="priceBox">
-                    <img id="imageDiv1" src="gallery/img7.jpg" alt="image1" style="width: 300px; height: 250px;">
+                    <img id="imageDiv" src="gallery/img7.jpg" alt="image1" style="width: 300px; height: 250px;">
                     <ul>
                         <h3>Backdrop + Dessert Package</h3>
                         <li>This package includes your choice of  dessert table package and backdrop. </li>
@@ -86,7 +83,7 @@
                 </div>
             </div>
             <div class="col-md-3 priceBox">
-                <img id="imageDiv2" src="gallery/img18.jpg" alt="image1" style="width: 300px; height: 250px;">
+                <img id="imageDiv" src="gallery/img18.jpg" alt="image1" style="width: 300px; height: 250px;">
                 <ul>
                     <h3>Dessert + Backdrop + Table Package</h3>
                     <li>This is our all encompassing package</li>
