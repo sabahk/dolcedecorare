@@ -15,36 +15,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style_1-3.css">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
     <title>Dolce Event Decor</title>
 </head>
 
 <body>
-    <div class="logo">
-        <img id="img" src="Images/mobileicon.png" alt="Logo">
-        <div class="headContact">
-            <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="tel:+17347474994">(734) 747-4994</a>
-        </div>
-    </div>
     <div class="topnav" id="myTopnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
+        <div class="navLink">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
 
-        <div class="dropdown">
-            <button class="dropbtn">Services
-                <i class="fas fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="desserts.html">Desserts</a>
-                <a href="rental.html">Rentals</a>
-                <a href="packages.html">Decorating & Pricing</a>
-                <a href="web.html">Snapchat & Website</a>
+            <div class="dropdown">
+                <button class="dropbtn">Services
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a class="active" href="#">Desserts</a>
+                    <a href="rental.html">Rentals</a>
+                    <a href="packages.html">Decorating & Pricing</a>
+                    <a href="web.html">Snapchat & Website</a>
+                </div>
             </div>
+            <a href="contact.php">Contact</a>
         </div>
-        <a href="contact.php">Contact</a>
+
+        <div class="brand"><img src="Images/navLogo.png"></div>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
@@ -56,81 +51,93 @@
         <img src="Images/gash.jpg" alt="stand" style="width: 200px; border-radius: 50%">
         <img src="Images/table.jpg" alt="stand" style="width: 200px; border-radius: 50%">
     </div>
-    <div class="center desc">
-        <em> Below are the dessert menu items, available as listed in our packages. Each package includes one dozen of the requested
+    <div class="desc">
+        <em> Below are the dessert menu items, available as listed in our packages. Each package includes one dozen of
+            the requested
             dessert item.
             <br /> ( available for individual purchases)
             <br />
             <br />
         </em>
     </div>
+
     <div class="dessert">
-        <div class="item itemDessert">
-            <ul>
-                <li>
-                    <h5>Chocolate Covered Strawberries
-                        <span>$18/dozen & $27/2 dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Chocolate Dipped Pretzels
-                        <span>$10/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Rice Krispy Treats
-                        <span>$12/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Cake Pop
-                        <span>$12/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Cupcakes
-                        <span>$18/dozen </span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Deep Fried Oreos
-                        <span>$10/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Oreo/Brownie Parfait
-                        <span>$25/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Custom Sugar Cookie
-                        <span>$15/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Brownies
-                        <span>$18/dozen</span>
-                    </h5>
-                </li>
-                <li>
-                    <h5>Dessert Shooter
-                        <span>$20/dozen</span>
-                    </h5>
-                </li>
-            </ul>
+        <div class="table-responsive">
+            <table class="table table-condensed" style="border-collapse:collapse;">
+                <thead>
+                    <th scope="col">Dessert</th>
+                    <th scope="col" class="price">Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <i data-toggle="collapse" data-target="#demo1" class="fa fa-chevron-right accordion-toggle rotate"></i>
+                            Chocolate Covered Strawberries
+                        </td>
+                        <td class="price">$18.00/dozen or $27.00/2 dozen</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="hiddenRow">
+                            <div class="accordion-body collapse" id="demo1"> <img src="gallery/wedding/bridalshower/img20.jpg">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate Dipped Pretzels</td>
+                        <td class="price">$10.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Rice Krispy Treats</td>
+                        <td class="price">$12.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Cake Pop</td>
+                        <td class="price">$12.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Cupcakes</td>
+                        <td class="price">$18.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Deep Fried Oreos</td>
+                        <td class="price">$10.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Oreo/Brownie Parfait</td>
+                        <td class="price">$25.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Sugar Cookie</td>
+                        <td class="price">$15.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Brownies</td>
+                        <td class="price">$18.00/dozen</td>
+                    </tr>
+                    <tr>
+                        <td>Dessert Shooter</td>
+                        <td class="price">$20.00/dozen</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-    <div class="dessertRequest center">
+
+    <div class="dessertRequest">
         <em>Other desserts available upon request.</em>
     </div>
 
 
     <footer class="footer">
         <div class="container">
-                <p id="firstP">Dolce Event Decor | <a href="mailto:dolceeventdecor@gmail.com">dolceeventdecor@gmail.com</a></p>
+            <p id="firstP">Dolce Event Decor | <a href="mailto:dolceeventdecor@gmail.com">dolceeventdecor@gmail.com</a></p>
         </div>
     </footer>
     <script>
+        $(".rotate").click(function () {
+            $(this).toggleClass("down");
+        })
+
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {

@@ -239,18 +239,78 @@ i:hover{
     border-radius: 50%;
 }
 
-/* desserts */
-
-.dessertRequest {
-    padding-top: 30px;
-    padding-bottom: 50px;
+/* desserts and rental */
+.desc{
+    text-align: center;
+}
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
 }
 
+.dessertRequest{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.table .price{
+    text-align: right;
+}
+
+.rental .table{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.hiddenRow img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+td i{
+    padding-right: 10px;
+}
+
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+.rentalCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 200px;
+}
+
+.rentalImages img{
+    padding: 20px;
+}
 
 /* contact.html */
 
+
+#dis{
+    text-align: center;
+    margin: auto;
+}
+
 #contact {
     padding-bottom: 30px;
+    text-align: center;
 }
 
 #contact p {
@@ -304,75 +364,14 @@ textarea {
 /* gallery.html */
 /* test */
 
-#slider{
-    position: relative;
-    max-height: 500px;
+#slider .item{
+    background-color: rgb(255, 255, 255, 0.1); 
 }
-
-.wrap{
-    margin-bottom: 60px;
+#slider .item img{
+    max-height: 400px;
+    display:block;
+    margin:auto;
 }
-
-.panel{
-    background-color: rgb(255, 255, 255, 0.1);
-}
-#slider .panel{
-    width: 1000px; 
-    height: 500px;
-    display: none;
-    margin: auto;
-}
-
-.panel img{
-    max-height: 500px;
-}
-
-#slider .panel:first-child{
-    display: block;
-    margin: auto;
-}
-
-#slider .previous{
-    position: absolute;
-    left:0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    font-size: 150px;
-    color: #FAFAFA;
-}
-
-#slider .next{
-    position: absolute;
-    right:0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    font-size: 150px;
-    color: #FAFAFA;
-}
-
-#slider .next:hover{
-    color: rgb(255, 255, 255, 0.1);
-}
-
-#slider .previous:hover{
-    color: rgb(255, 255, 255, 0.1);
-}
-
-#slider .arrowNCenter{
-    float: right;
-    padding-top: 150px;
-}
-
-#slider .arrowPCenter{
-    float: left;
-    padding-top: 150px;
-}
-
-
-
-/* test end */
 
 /* pricing.html */
 
@@ -421,43 +420,6 @@ hr{
 
 .dropdown-toggle::after {
     content: none !important;
-}
-
-/* Rentals.html */
-
-.item h5 {
-    margin-bottom: 0;
-    font-size: 20px;
-}
-
-ul{
-    padding-left: 350px;
-}
-
-.item em {
-    padding-bottom: 10px;
-    
-}
-
-.item span{
-    float: right;
-    padding-right: 350px;
-}
-
-.rental {      
-    padding-bottom: 30px;
-}
-
-.rentalCenter{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding-left: 200px;
-}
-
-.rentalImages img{
-    padding: 20px;
 }
 
 /* Web */
