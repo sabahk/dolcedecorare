@@ -52,26 +52,12 @@
             <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
             <div class="normal">
                 <div class="text">
-                    test text goes here
+                    Dessert Table Packages
                 </div>
             </div>
             <div class="hover">
-                <div class="text">Background + text
-                    HOVER</div>
-            </div>
-        </div>
-
-        <div class="overlay-image">
-            <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
-            <div class="normal">
                 <div class="text">
-
-                </div>
-            </div>
-            <div class="hover">
-                <div class="text">Background + text
-                    HOVER
-
+                    Prices Range From $225 - $325 + Price of Custom Cake
                     <button id="myBtn">Details</button>
                 </div>
             </div>
@@ -102,12 +88,11 @@
                                         <hr>
                                         <p class="space">**Custom cake available by request**</p>
                                         <hr>
-                                        
+
                                     </ul>
                                 </td>
                             </tr>
                         </table>
-                        <!--<img src="gallery/stand.jpg">-->
                     </div>
                 </div>
             </div>
@@ -117,12 +102,87 @@
             <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
             <div class="normal">
                 <div class="text">
-                    test text goes here
+                    Backdrop + Dessert Table Package
                 </div>
             </div>
             <div class="hover">
-                <div class="text">Background + text
-                    HOVER</div>
+                <div class="text">
+                    Prices Range From $350 - $450
+                    <button id="myBtn1">Details</button>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="imgModal">
+                        <table>
+                            <tr>
+                                <td><img src="gallery/stand.jpg"></td>
+                                <td>
+                                    <ul>
+                                        <h3>Dessert + Backdrop + Table Package</h3>
+                                        <li>This package includes your choice of  dessert table package and backdrop. </li>
+                                        <li>This is our all encompassing package</li>
+                                        <li>This package includes dessert table, backdrop and guests table decor.</li>
+                                        <li>Extra backdrop and props for photo booth purposes.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay-image">
+            <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
+            <div class="normal">
+                <div class="text">
+                    Full Package
+                </div>
+            </div>
+            <div class="hover">
+                <div class="text">
+                    Prices Range From $450 - $550
+                    <button id="myBtn2">Details</button>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="imgModal">
+                        <table>
+                            <tr>
+                                <td><img src="gallery/stand.jpg"></td>
+                                <td>
+                                    <ul>
+                                        <h3>Dessert + Backdrop + Table Package</h3>
+                                        <h4>Prices Range From $450 - $550</h4>
+                                        <p class="package">PACKAGE 1</p>
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 3 desserts (includes 1 dozen of each item)</li>
+                                        <hr>
+                                        PACKAGE 2
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 4 desserts</li>
+                                        <hr>
+                                        PACKAGE 3
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 5 desserts<br /></li>
+                                        <hr>
+                                        <p class="space">**Custom cake available by request**</p>
+                                        <hr>
+
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -139,12 +199,22 @@
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
+        var btn1 = document.getElementById("myBtn1");
+        var btn2 = document.getElementById("myBtn2");
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
 
         // When the user clicks the button, open the modal 
         btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        btn1.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        btn2.onclick = function () {
             modal.style.display = "block";
         }
 

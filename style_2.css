@@ -460,6 +460,8 @@ textarea {
     color: #031634;
 }
 
+
+
 /* The Close Button */
 
 .close {
@@ -474,6 +476,8 @@ textarea {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 
 
 .dropdown-toggle::after {
