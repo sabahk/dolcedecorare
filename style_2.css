@@ -378,13 +378,13 @@ textarea {
 .overlay-image{
     position: relative;
     width: 300px;
+    margin: auto;
 }
 
 .overlay-image .image {
     display: block;
     width: 300px;
-    height: 250px;
-    margin: auto;
+    height: 300px;
    }
    /* Original text overlay */
    .overlay-image .text {
@@ -404,7 +404,8 @@ textarea {
     position: absolute;
     top: 0;
     height: 100%;
-    width: 100%;
+    width: 300px;
+    margin: auto;
     opacity: 0;
     transition: .5s ease;
    }
