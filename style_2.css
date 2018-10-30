@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
     background-color: #031634;
     color: #FAFAFA;
     overflow-x: hidden;
@@ -11,7 +10,6 @@ html {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
 
 i {
     color: #FAFAFA;
@@ -26,10 +24,10 @@ h1 {
 
 a {
     color: #FAFAFA;
-    text-shadow: 0,0,0;
+    text-shadow: 0, 0, 0;
 }
 
-a:hover{
+a:hover {
     color: rgb(255, 255, 255, 0.1);
     text-decoration: none;
 }
@@ -39,10 +37,11 @@ a:hover{
     padding: 10px;
 }
 
-i:hover{
+i:hover {
     color: rgb(255, 255, 255, 0.1);
     text-decoration: none;
 }
+
 .col-centered {
     float: none;
     margin: 0 auto;
@@ -79,14 +78,15 @@ i:hover{
 
 /* navbar */
 
-.brand{
+.brand {
     float: left;
     padding-left: 15px;
 }
 
-.navLink{
+.navLink {
     float: right;
 }
+
 .topnav {
     overflow: hidden;
     background-color: #FAFAFA;
@@ -116,7 +116,6 @@ i:hover{
     float: left;
     overflow: hidden;
     position: static;
-    
 }
 
 .dropdown .dropbtn {
@@ -149,8 +148,7 @@ i:hover{
     background-color: #FAFAFA;
 }
 
-.topnav a:hover,
-.dropdown:hover .dropbtn {
+.topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
 }
@@ -164,7 +162,7 @@ i:hover{
     display: block;
 }
 
-.dropdown i{
+.dropdown i {
     color: #031634;
 }
 
@@ -177,61 +175,60 @@ i:hover{
 /* index info paragraph */
 
 .homeInfo {
-    
     text-align: center;
 }
 
-.homeInfo .center{
+.homeInfo .center {
     padding-top: 25px;
     padding-right: 40px;
 }
 
-.homeInfo .row{
+.homeInfo .row {
     margin: 35px 0;
     padding: 35px 0;
 }
 
-.homeInfo p{
+.homeInfo p {
     font-size: 1.5em;
     text-align: right;
 }
-.testimonial{
+
+.testimonial {
     text-align: right;
 }
 
-.testBg{
+.testBg {
     background-color: #FAFAFA;
     color: #031634;
 }
 
-#soc{
+#soc {
     padding-top: 0;
     margin-top: 0;
 }
 
-#soc .col-md-4{
+#soc .col-md-4 {
     text-align: center;
 }
 
-#soc a{
+#soc a {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-#soc img{
+#soc img {
     width: 125px;
     height: 125px;
     border-radius: 0;
 }
 
-#soc p{
+#soc p {
     text-align: center;
     margin-bottom: 20px;
 }
 
-
-.homeInfo p span{
+.homeInfo p span {
     font-style: italic;
 }
 
@@ -240,9 +237,11 @@ i:hover{
 }
 
 /* desserts and rental */
-.desc{
+
+.desc {
     text-align: center;
 }
+
 .table {
     border-radius: 5px;
     width: 50%;
@@ -250,16 +249,16 @@ i:hover{
     float: none;
 }
 
-.dessertRequest{
+.dessertRequest {
     margin-bottom: 60px;
     text-align: center;
 }
 
-.table .price{
+.table .price {
     text-align: right;
 }
 
-.rental .table{
+.rental .table {
     margin-bottom: 50px;
     padding-bottom: 30px;
 }
@@ -268,13 +267,13 @@ i:hover{
     padding: 0 !important;
 }
 
-.hiddenRow img{
+.hiddenRow img {
     height: 150px;
     margin: auto;
     display: block;
 }
 
-td i{
+td i {
     padding-right: 10px;
 }
 
@@ -283,13 +282,15 @@ td i{
     -webkit-transition: all .5s linear;
     transition: all .5s linear;
 }
+
 .rotate.down {
     transform-origin: 25%;
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
-.rentalCenter{
+
+.rentalCenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -297,14 +298,13 @@ td i{
     padding-left: 200px;
 }
 
-.rentalImages img{
+.rentalImages img {
     padding: 20px;
 }
 
 /* contact.html */
 
-
-#dis{
+#dis {
     text-align: center;
     margin: auto;
 }
@@ -358,24 +358,27 @@ textarea {
     padding-bottom: 0px;
 }
 
-.buf{
+.buf {
     margin-bottom: 55px;
 }
 
 /* gallery.html */
+
 /* test */
 
-#slider .item{
-    background-color: rgb(255, 255, 255, 0.1); 
+#slider .item {
+    background-color: rgb(255, 255, 255, 0.1);
 }
-#slider .item img{
+
+#slider .item img {
     max-height: 400px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
 /* packages.html */
-.overlay-image{
+
+.overlay-image {
     position: relative;
     width: 300px;
     margin: auto;
@@ -385,9 +388,9 @@ textarea {
     display: block;
     width: 300px;
     height: 300px;
-   }
-   /* Original text overlay */
-   .overlay-image .text {
+}
+
+.overlay-image .text {
     color: #fff;
     font-size: 30px;
     line-height: 1.5em;
@@ -397,9 +400,8 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   }
+}
 
-   /* New overlay on hover */
 .overlay-image .hover {
     position: absolute;
     top: 0;
@@ -408,24 +410,72 @@ textarea {
     margin: auto;
     opacity: 0;
     transition: .5s ease;
-   }
-   /* New overlay appearance on hover */
-   .overlay-image:hover .hover {
+}
+
+.overlay-image:hover .hover {
     opacity: 1;
-   }
+}
 
-   .overlay-image .normal {
+.overlay-image .normal {
     transition: .5s ease;
-   }
-   .overlay-image:hover .normal {
-    opacity: 0;
-   }
-   .overlay-image .hover {
-    background-color: rgba(0,0,0,0.5);
-   }
+}
 
-.prices img{
+.overlay-image:hover .normal {
+    opacity: 0;
+}
+
+.overlay-image .hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prices img {
     width: 300px !important;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .prices ul {
@@ -435,18 +485,17 @@ textarea {
     height: 350px;
     margin-bottom: 0;
     padding-left: 20px;
-
 }
 
-hr{
+hr {
     margin: 5px;
 }
 
-.space{
+.space {
     padding-top: 20px;
 }
 
-.prices ul.li{
+.prices ul.li {
     list-style-type: circle;
 }
 
@@ -454,7 +503,7 @@ hr{
     color: #031634;
 }
 
-.priceBox h3{
+.priceBox h3 {
     margin-top: 0;
 }
 
@@ -473,30 +522,30 @@ hr{
 
 /* Web */
 
-.webTop{
+.webTop {
     padding-top: 30px;
 }
 
-.webTop h4{
+.webTop h4 {
     padding: 5px 40px;
 }
 
-.webTop h4:nth-child(3){
+.webTop h4:nth-child(3) {
     padding-bottom: 20px;
-
 }
-.scLeft{
+
+.scLeft {
     width: 50%;
     float: left;
     border-right: 1px solid #FAFAFA;
 }
 
-.webRight{
+.webRight {
     width: 50%;
     float: right;
 }
 
-.scLeft img, .webRight img{
+.scLeft img, .webRight img {
     margin-bottom: 55px;
 }
 
@@ -517,26 +566,26 @@ hr{
     margin: 0;
 }
 
-.footer a{
+.footer a {
     color: #031634;
 }
 
-.footer a:hover{
+.footer a:hover {
     color: rgb(255, 255, 255, 0.1);
 }
+
 .footer #firstP {
     padding-top: 10px;
 }
 
-#myCarousal img{
+#myCarousal img {
     width: 100%;
 }
 
 /* mobile */
 
 @media only screen and (max-width: 600px) {
-
-    #qrimg{
+    #qrimg {
         margin-bottom: 40px;
     }
     .imageInfo {
@@ -552,8 +601,7 @@ hr{
     .logo {
         width: 200px;
     }
-
-    .logo img{
+    .logo img {
         padding-left: 40%;
     }
     .headContact {
@@ -568,61 +616,47 @@ hr{
     textarea {
         width: 70%;
     }
-
-    .prices{
-       -webkit-overflow-scrolling: touch;
+    .prices {
+        -webkit-overflow-scrolling: touch;
     }
-    .priceBox img, .priceBox ul, 
-    .priceBox h4{
+    .priceBox img, .priceBox ul, .priceBox h4 {
         float: none;
         margin: 0 auto;
     }
-
-    .priceBox h4{
+    .priceBox h4 {
         margin-bottom: 50px;
     }
-
-    ul{
+    ul {
         padding-left: 10px;
         padding-bottom: 40px;
     }
-
-    .item h5{
+    .item h5 {
         margin-top: 30px;
     }
-
-    .item span{
+    .item span {
         float: none;
         text-align: center;
         padding-right: 0;
         padding-bottom: 20px;
         padding-top: 15px;
     }
-
-    .dessertRequest{
+    .dessertRequest {
         padding-bottom: 60px;
     }
-
-    .rentalImages{
+    .rentalImages {
         margin-bottom: 15px;
     }
-
-    .rentalImages img:nth-child(n+1){
+    .rentalImages img:nth-child(n+1) {
         display: none;
     }
-
-    .rentalImages img:nth-child(1){
+    .rentalImages img:nth-child(1) {
         display: block;
         margin: 0 auto;
-
     }
-
-    .rentalCenter{
+    .rentalCenter {
         padding-left: 0;
     }
-   
-    .topnav a,
-    .dropdown .dropbtn {
+    .topnav a, .dropdown .dropbtn {
         display: none;
     }
     .topnav a.icon {
@@ -636,6 +670,10 @@ hr{
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+    .topnav.responsive .navLink{
+        padding-top: 50px;
     }
     .topnav.responsive a {
         float: none;
@@ -655,48 +693,37 @@ hr{
         text-align: left;
         padding: 14px 35px;
     }
-
-    .formboxes{
+    .formboxes {
         background-color: #FAFAFA;
         color: #031634;
     }
-
-    .scLeft{
+    .scLeft {
         width: 100%;
         float: none;
         border-bottom: 1px solid #FAFAFA;
         border-left: none;
     }
-    
-    .webRight{
+    .webRight {
         width: 100%;
         float: right;
     }
-
-    .logo{
+    .logo {
         height: 150px;
     }
-
-    .footer{ 
+    .footer {
         height: 30px;
     }
-
-    #slider .panel{
+    #slider .panel {
         width: 400px !important;
-        
     }
-
-    .panel img{
+    .panel img {
         max-width: 400px;
         max-height: 350px;
     }
-
-    #slider .previous{
+    #slider .previous {
         font-size: 50px;
     }
-    
-    #slider .next{
+    #slider .next {
         font-size: 50px;
     }
-
 }
