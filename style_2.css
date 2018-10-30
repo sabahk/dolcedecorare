@@ -460,7 +460,8 @@ textarea {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
+    color: #031634;
 }
 
 /* The Close Button */
@@ -476,6 +477,16 @@ textarea {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.imgModal{
+    float: left;
+    width: 30%;
+}
+
+.infoModal{
+    float: right;
+    width: 70%;
 }
 
 .prices ul {

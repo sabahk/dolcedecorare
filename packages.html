@@ -48,7 +48,7 @@
     <h1>PRICING</h1>
     <div class="row prices">
         <!--check notes-->
-        <div class="col-md-3 overlay-image">
+        <div class="overlay-image">
             <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
             <div class="normal">
                 <div class="text">
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 overlay-image">
+        <div class="overlay-image">
             <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
             <div class="normal">
                 <div class="text">
@@ -80,12 +80,17 @@
 
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <p>Some text in the Modal..</p>
+                    <div class="imgModal">
+                        <img src="gallery/stand.jpg">
+                    </div>
+                    <div class="infoModal">
+                        <p>Some text in the Modal..</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3 overlay-image">
+        <div class="overlay-image">
             <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
             <div class="normal">
                 <div class="text">
@@ -107,7 +112,6 @@
     </div>
     <script href="text/javascript" src="JS/navbar.js"></script>
     <script>
-
         var modal = document.getElementById('myModal');
 
         // Get the button that opens the modal
