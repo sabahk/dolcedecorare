@@ -170,8 +170,7 @@ i:hover {
 
 /* index header image */
 
-.headerImg img {
-    width: 100vw;
+.carousel-inner img{
 }
 
 /* index info paragraph */
@@ -525,6 +524,7 @@ td img {
 
 .webTop {
     padding-top: 30px;
+    text-align: center;
 }
 
 .webTop h4 {
@@ -539,6 +539,11 @@ td img {
     width: 50%;
     float: left;
     border-right: 1px solid #FAFAFA;
+}
+
+.webTop p{
+    width: 350px;
+    margin: auto;
 }
 
 .webRight {
