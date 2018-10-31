@@ -45,26 +45,44 @@
     </div>
     
     <div class="center" id="contact">
-        <h1>CONTACT</h1>
-        <h3>LET'S GET IN TOUCH!</h3>
-        <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
-            <i class="fab fa-facebook-square fa-3x"></i>
-        </a>
-        <a href="mailto:dolceeventdecor@gmail.com?Subject=Event%20Inquiry" target="_blank" sizes="64x364">
-            <i class="fas fa-envelope-square fa-3x"></i>
-        </a>
-        <a href="tel:734-747-4994" target="_blank" sizes="64x364">
-            <i class="fas fa-phone-square fa-3x"></i>
-        </a>
+        <h1>REQUEST A QUOTE</h1>
+        <h3>Please provide as much detail as you can and we will reach out within 24 hours.</h3>
         <div id="dis" class="conInfo center">
-        <p>(all fields are required)</p>
+            <!--add * to required fields-->
             <form method="POST" action="#" id="form" name="form" onsubmit="Success()">
                 <input type="text" class="formboxes" name="vname" placeholder="Name" required>
                 <br/>
                 <input type="email" class="formboxes" name="vemail" placeholder="Email" required>
                 <br/>
+                <input type="tel" class="formboxes" name="vphonenumber" placeholder="Phone Number">
+                <br/>
                 <input name="sub" class="formboxes" placeholder="Subject" type="text" value="">
                 <br/>
+                <div>
+                    <input type="checkbox" id="desserttable" name="feature"
+                        value="desserttable" checked />
+                    <label for="scales">Dessert Table Setup</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="backdrop" name="feature"
+                        value="backdrop" checked />
+                    <label for="scales">Backdrop Setup</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scales" name="feature"
+                        value="scales" checked />
+                    <label for="scales">Guest Table setup</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rental" name="feature"
+                        value="rental" checked />
+                    <label for="scales">Rental of Items</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="other" name="feature"
+                        value="other" checked />
+                    <label for="scales">Other:</label>
+                </div>
                 <textarea name="msg" class="formboxes" placeholder="Message" rows="5" required></textarea>
                 <br/>
                 <input id="send" class="submitButton" name="submit" type="submit" value="Submit">
