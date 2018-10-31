@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     background-color: #031634;
     color: #FAFAFA;
     overflow-x: hidden;
@@ -148,7 +149,8 @@ i:hover {
     background-color: #FAFAFA;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover,
+.dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
 }
@@ -173,6 +175,16 @@ i:hover {
 }
 
 /* index info paragraph */
+
+#quote {
+    background-color: #031634;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+#quote a:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
 
 .homeInfo {
     text-align: center;
@@ -428,6 +440,23 @@ textarea {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.normal .text {
+    font-size: 1.5em;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.hover .text {
+    font-size: 1em;
+}
+
+.text button {
+    font-size: 1em;
+    color: #031634;
+    border: 0;
+    margin-top: 30px;
+}
+
 .modal {
     display: none;
     /* Hidden by default */
@@ -461,20 +490,28 @@ textarea {
 }
 
 
-
-/* The Close Button */
-
-.close {
+.close,
+.close1,
+.close2 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus,
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+td img {
+    width: 300px;
 }
 
 
@@ -509,7 +546,8 @@ textarea {
     float: right;
 }
 
-.scLeft img, .webRight img {
+.scLeft img,
+.webRight img {
     margin-bottom: 55px;
 }
 
@@ -552,51 +590,68 @@ textarea {
     #qrimg {
         margin-bottom: 40px;
     }
+
     .imageInfo {
         display: none;
     }
+
     h2 {
         font-size: 100%;
         padding: 20px;
     }
+
     p {
         font-size: 95% !important;
     }
+
     .logo {
         width: 200px;
     }
+
     .logo img {
         padding-left: 40%;
     }
+
     .headContact {
         display: none;
     }
+
     .item {
         text-align: center;
     }
+
     input {
         width: 70%;
     }
+
     textarea {
         width: 70%;
     }
+
     .prices {
         -webkit-overflow-scrolling: touch;
     }
-    .priceBox img, .priceBox ul, .priceBox h4 {
+
+    .priceBox img,
+    .priceBox ul,
+    .priceBox h4 {
         float: none;
         margin: 0 auto;
     }
+
     .priceBox h4 {
         margin-bottom: 50px;
     }
+
     ul {
         padding-left: 10px;
         padding-bottom: 40px;
     }
+
     .item h5 {
         margin-top: 30px;
     }
+
     .item span {
         float: none;
         text-align: center;
@@ -604,89 +659,112 @@ textarea {
         padding-bottom: 20px;
         padding-top: 15px;
     }
+
     .dessertRequest {
         padding-bottom: 60px;
     }
+
     .rentalImages {
         margin-bottom: 15px;
     }
+
     .rentalImages img:nth-child(n+1) {
         display: none;
     }
+
     .rentalImages img:nth-child(1) {
         display: block;
         margin: 0 auto;
     }
+
     .rentalCenter {
         padding-left: 0;
     }
-    .topnav a, .dropdown .dropbtn {
+
+    .topnav a,
+    .dropdown .dropbtn {
         display: none;
     }
+
     .topnav a.icon {
         float: right;
         display: block;
     }
+
     .topnav.responsive {
         position: relative;
     }
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .topnav.responsive .navLink{
+    .topnav.responsive .navLink {
         padding-top: 50px;
     }
+
     .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
         padding: 14px 35px;
     }
+
     .topnav.responsive .dropdown {
         float: none;
     }
+
     .topnav.responsive .dropdown-content {
         position: relative;
     }
+
     .topnav.responsive .dropdown .dropbtn {
         display: block;
         width: 100%;
         text-align: left;
         padding: 14px 35px;
     }
+
     .formboxes {
         background-color: #FAFAFA;
         color: #031634;
     }
+
     .scLeft {
         width: 100%;
         float: none;
         border-bottom: 1px solid #FAFAFA;
         border-left: none;
     }
+
     .webRight {
         width: 100%;
         float: right;
     }
+
     .logo {
         height: 150px;
     }
+
     .footer {
         height: 30px;
     }
+
     #slider .panel {
         width: 400px !important;
     }
+
     .panel img {
         max-width: 400px;
         max-height: 350px;
     }
+
     #slider .previous {
         font-size: 50px;
     }
+
     #slider .next {
         font-size: 50px;
     }

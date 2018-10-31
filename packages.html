@@ -57,7 +57,7 @@
             </div>
             <div class="hover">
                 <div class="text">
-                    Prices Range From $225 - $325 + Price of Custom Cake
+                    Prices Range From <br /> $225 - $325 <br /> + Price of Custom Cake
                     <button id="myBtn">Details</button>
                 </div>
             </div>
@@ -99,7 +99,7 @@
         </div>
 
         <div class="overlay-image">
-            <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
+            <img class="image" src="gallery/wedding/bridalshower/img14.jpg" alt="image1" style="width: 300px; height: 250px;">
             <div class="normal">
                 <div class="text">
                     Backdrop + Dessert Table Package
@@ -107,19 +107,19 @@
             </div>
             <div class="hover">
                 <div class="text">
-                    Prices Range From $350 - $450
+                    Prices Range From <br />$350 - $450 <br/>
                     <button id="myBtn1">Details</button>
                 </div>
             </div>
 
-            <div id="myModal" class="modal">
+            <div id="myModal1" class="modal">
 
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <span class="close1">&times;</span>
                     <div class="imgModal">
                         <table>
                             <tr>
-                                <td><img src="gallery/stand.jpg"></td>
+                                <td><img src="gallery/wedding/bridalshower/img14.jpg"></td>
                                 <td>
                                     <ul>
                                         <h3>Dessert + Backdrop + Table Package</h3>
@@ -145,15 +145,15 @@
             </div>
             <div class="hover">
                 <div class="text">
-                    Prices Range From $450 - $550
+                    Prices Range From <br/>$450 - $550 <br/>
                     <button id="myBtn2">Details</button>
                 </div>
             </div>
 
-            <div id="myModal" class="modal">
+            <div id="myModal2" class="modal">
 
                 <div class="modal-content">
-                    <span class="close">&times;</span>
+                    <span class="close2">&times;</span>
                     <div class="imgModal">
                         <table>
                             <tr>
@@ -196,6 +196,8 @@
     <script href="text/javascript" src="JS/navbar.js"></script>
     <script>
         var modal = document.getElementById('myModal');
+        var modal1 = document.getElementById('myModal1');
+        var modal2 = document.getElementById('myModal2');
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
@@ -204,6 +206,8 @@
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
+        var span1 = document.getElementsByClassName("close1")[0];
+        var span2 = document.getElementsByClassName("close2")[0];
 
         // When the user clicks the button, open the modal 
         btn.onclick = function () {
@@ -211,11 +215,11 @@
         }
 
         btn1.onclick = function () {
-            modal.style.display = "block";
+            modal1.style.display = "block";
         }
 
         btn2.onclick = function () {
-            modal.style.display = "block";
+            modal2.style.display = "block";
         }
 
         // When the user clicks on <span> (x), close the modal
@@ -223,10 +227,32 @@
             modal.style.display = "none";
         }
 
+        span1.onclick = function () {
+            modal1.style.display = "none";
+        }
+
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        
+
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+            }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
             }
         }
     </script>
