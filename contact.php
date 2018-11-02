@@ -90,7 +90,7 @@
                 }
                 else{
                 $subject = $_POST['sub'];
-                $message = "Dolce Request Form " . $_POST['msg'];
+                $message = "Dolce Request Form " . $_POST['msg']; //try " message: $msg "
                 $headers = 'From:'. $email;  // Carbon copy to Sender
                 // Message lines should not exceed 70 characters (PHP rule), so wrap it
                 $message = wordwrap($message, 70);
