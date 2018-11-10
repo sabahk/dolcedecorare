@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Event Decorating">
+    <meta name="keywords" content="event, dessert, decorate, decorator, 
+            dessert table, wedding, birthday, desi, indian, pakistani,
+            dholki, mehndi, bridal shower">
+    <meta name="author" content="Sabah Khan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style_2.css">
+    <link rel='icon' href='Images/favicon.ico' type='image/x-icon'/ >
+    <title>Dolce Event Decor</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="navLink">
+            <a href="index.html">HOME</a>
+            <a href="gallery.html">GALLERY</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">SERVICES
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="desserts.html">DESSERTS</a>
+                    <a href="rental.html">RENTALS</a>
+                    <a href="snapchatandwedding.html">SNAPCHAT & WEBSITE</a>
+                    <a class="active" href="packagesandprices.html">DECORATING PACKAGES & PRICING</a>
+                    <a href="quote.php">REQUEST A QUOTE!</a>
+                </div>
+            </div>
+            <a href="contact.php">CONTACT</a>
+        </div>
+
+        <div class="brand"><img src="Images/navLogo.png"></div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <h1>PRICING</h1>
+    <div class="row prices">
+        <!--check notes-->
+        <div class="overlay-image">
+            <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
+            <div class="normal">
+                <div class="text">
+                    Dessert Table Packages
+                </div>
+            </div>
+            <div class="hover">
+                <div class="text">
+                    Prices Range From <br /> $225 - $325 <br /> + Price of Custom Cake
+                    <button id="myBtn">Details</button>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="imgModal">
+                        <table>
+                            <tr>
+                                <td><img src="gallery/stand.jpg"></td>
+                                <td>
+                                    <ul>
+                                        <h3>Dessert Table Packages</h3>
+                                        <h4>Prices Range From $350 - $450</h4>
+                                        <p class="package">PACKAGE 1</p>
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 3 desserts (includes 1 dozen of each item)</li>
+                                        <hr>
+                                        PACKAGE 2
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 4 desserts</li>
+                                        <hr>
+                                        PACKAGE 3
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 5 desserts<br /></li>
+                                        <hr>
+                                        <p class="space">**Custom cake available by request**</p>
+                                        <hr>
+
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay-image">
+            <img class="image" src="gallery/wedding/bridalshower/img14.jpg" alt="image1" style="width: 300px; height: 250px;">
+            <div class="normal">
+                <div class="text">
+                    Backdrop + Dessert Table Package
+                </div>
+            </div>
+            <div class="hover">
+                <div class="text">
+                    Prices Range From <br />$350 - $450 <br />
+                    <button id="myBtn1">Details</button>
+                </div>
+            </div>
+
+            <div id="myModal1" class="modal">
+
+                <div class="modal-content">
+                    <span class="close1">&times;</span>
+                    <div class="imgModal">
+                        <table>
+                            <tr>
+                                <td><img src="gallery/wedding/bridalshower/img14.jpg"></td>
+                                <td>
+                                    <ul>
+                                        <h3>Dessert + Backdrop + Table Package</h3>
+                                        <li>This package includes your choice of dessert table package and backdrop.
+                                        </li>
+                                        <li>This is our all encompassing package</li>
+                                        <li>This package includes dessert table, backdrop and guests table decor.</li>
+                                        <li>Extra backdrop and props for photo booth purposes.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay-image">
+            <img class="image" src="gallery/stand.jpg" alt="image1" style="width: 300px; height: 250px;">
+            <div class="normal">
+                <div class="text">
+                    Full Package
+                </div>
+            </div>
+            <div class="hover">
+                <div class="text">
+                    Prices Range From <br />$450 - $550 <br />
+                    <button id="myBtn2">Details</button>
+                </div>
+            </div>
+
+            <div id="myModal2" class="modal">
+
+                <div class="modal-content">
+                    <span class="close2">&times;</span>
+                    <div class="imgModal">
+                        <table>
+                            <tr>
+                                <td><img src="gallery/stand.jpg"></td>
+                                <td>
+                                    <ul>
+                                        <h3>Dessert + Backdrop + Table Package</h3>
+                                        <h4>Prices Range From $450 - $550</h4>
+                                        <p class="package">PACKAGE 1</p>
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 3 desserts (includes 1 dozen of each item)</li>
+                                        <hr>
+                                        PACKAGE 2
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 4 desserts</li>
+                                        <hr>
+                                        PACKAGE 3
+                                        <li>Dessert table decorations</li>
+                                        <li>Choice of 5 desserts<br /></li>
+                                        <hr>
+                                        <p class="space">**Custom cake available by request**</p>
+                                        <hr>
+
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dessertRequest center">
+        <em>Custom packages available to fit your needs and budget.</em>
+    </div>
+    <div class="footer">
+        <p id="firstP">Dolce Event Decor | <a href="mailto:dolceeventdecor@gmail.com">dolceeventdecor@gmail.com</a></p>
+    </div>
+    <script href="text/javascript" src="JS/navbar.js"></script>
+    <script>
+        var modal = document.getElementById('myModal');
+        var modal1 = document.getElementById('myModal1');
+        var modal2 = document.getElementById('myModal2');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        var btn1 = document.getElementById("myBtn1");
+        var btn2 = document.getElementById("myBtn2");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        var span1 = document.getElementsByClassName("close1")[0];
+        var span2 = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        btn1.onclick = function () {
+            modal1.style.display = "block";
+        }
+
+        btn2.onclick = function () {
+            modal2.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        span1.onclick = function () {
+            modal1.style.display = "none";
+        }
+
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
