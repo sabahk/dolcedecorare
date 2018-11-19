@@ -491,7 +491,7 @@ hr{
 
 /* mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 815px) {
     .imageInfo {
         display: none;
     }
@@ -504,6 +504,10 @@ hr{
     }
     .logo {
         width: 200px;
+    }
+
+    table{
+        margin-bottom: 40px;
     }
 
     .logo img{
@@ -550,6 +554,10 @@ hr{
         padding-right: 0;
         padding-bottom: 20px;
         padding-top: 15px;
+    }
+
+    .item img{
+       max-width: 300px !important;
     }
 
     .dessertRequest{
