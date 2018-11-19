@@ -20,33 +20,29 @@
 </head>
 
 <body>
-    <div class="logo">
-        <img id="img" src="Images/mobileicon.png" alt="Logo">
-        <div class="headContact">
-            <a href="https://www.facebook.com/DolceEventDecor/" target="_blank" sizes="64x364">
-                <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="tel:+17347474994">(734) 747-4994</a>
-        </div>
-    </div>
-    <div class="topnav" id="myTopnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
+<div class="topnav" id="myTopnav">
+        <div class="navLink">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
 
-        <div class="dropdown">
-            <button class="dropbtn">Services
-                <i class="fas fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="desserts.html">Desserts</a>
-                <a href="rental.html">Rentals</a>
-                <a href="packages.html">Decorating & Pricing</a>
-                <a href="web.html">Snapchat & Website</a>
+            <div class="dropdown">
+                <button class="dropbtn">Services
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="desserts.html">Desserts</a>
+                    <a class="active" href="#">Rentals</a>
+                    <a href="packages.html">Decorating & Pricing</a>
+                    <a href="web.html">Snapchat & Website</a>
+                </div>
             </div>
+            <a href="contact.php">Contact</a>
         </div>
-        <a href="contact.html">Contact</a>
+
+        <div class="brand"><img src="Images/navLogo.png"></div>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
+
     
     <div class="center" id="contact">
         <h1>CONTACT</h1>

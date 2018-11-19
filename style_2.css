@@ -19,6 +19,11 @@ i {
 
 /* common css */
 
+.center{
+    text-align: center;
+    margin: auto;
+}
+
 h1 {
     text-align: center;
     margin-top: 30px;
